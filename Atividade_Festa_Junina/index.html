@@ -1,0 +1,93 @@
+<!-- Ative as animações do Windows para tornar a navegação mais agradável -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Avaliação Prática de PAM I - Turma A</title>
+</head>
+
+<body>
+    <header>
+        <span class="app-title">Vaquinha para a festa junina 🎉</span>
+        <a href="javascript:menuToggle()" id="menu">
+            <img src="img/menu.svg" alt="menu button">
+        </a>
+    </header>
+    <main>
+        <p class="description">
+            Organizar uma festa é sempre um problema.. não é mesmo? Esse app auxilia o organizador da festa a fazer o controle de quem está colaborando com alguma grana. Além disso, ele mostra o valor total acumulado para a realização da festa. Também é possível visualizar o valor médio doado por pessoa. 
+            <p>
+                O que fazer para tirar MB? 
+            </p>
+            <ul>
+                <li>
+                    Cadastro de objetos em Array. ✔
+                </li>
+                <li>
+                    Listagem dos objetos do Array. ✔
+                </li>
+                <li>
+                    Opção de remover ajuda. ✔
+                </li>
+                <li>
+                    Colocar o seu nome completo no footer do App. ✔
+                </li>
+                <li>
+                    Mostrar o total acumulado para a festa e o valor médio doado por pessoa. ✔
+                </li>
+                <li>
+                    DESAFIO 💣 - Destacar de alguma forma o nome da pessoa que doou o maior valor (opcional).
+                </li>
+            </ul>
+        </p>
+        
+
+        <section class="content">
+            <h1>
+                💰 Pessoas que ajudaram (Total: <span id="ajuda-total"> </span>)
+            </h1>
+            <h2>
+                Valor médio por pessoa (<span id="ajuda-media">  </span>)
+            </h2>
+            <div class="list">
+                
+            </div>
+        </section>
+
+    </main>
+    <aside>
+        <h1>Nova contribuição</h1>
+        <form onsubmit="return false;" autocomplete="off">
+            <div class="field">
+                <input type="text" id="txtpessoa" name="txtpessoa">
+                <label for="txtpessoa">Nome do contribuinte</label>
+
+            </div>
+            <div class="field">
+                <input id="txtvalor" name="txtvalor">
+                <label for="txtvalor">Valor da contribuição</label>
+
+            </div>
+            <div class="field">
+                <button id="btn-adicionar">Adicionar</button>
+            </div>
+        </form>
+        <a href="javascript:menuToggle()" class="close"><img src="img/close.svg" alt="Close button"></a>
+    </aside>
+    <footer>
+        <span>Professor: <b>Giovanni Guarnieri</b></span>
+        <span class="student">Aluno: <b>Eduardo Coelho Pellegrino</b></span>
+    </footer>
+</body>
+<script src="js/navigation.js"></script>
+<script src="js/resolucao.js"></script>
+
+</html>
+<!-- 
+    :( mevoj ,adanroj asse rop odagirbO
+    !edadivita an etros aoB
+-->
